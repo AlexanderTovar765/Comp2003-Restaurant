@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/restaurant_bg">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="24dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- Title -->
+        <TextView
+            android:text="Welcome to Our Restaurant"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            android:textColor="#B3FFFFFF"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp" />
+
+        <!-- View Menu -->
+        <Button
+            android:id="@+id/btnViewMenu"
+            android:text="View Menu"
+            android:textColor="#FFFFFFFF"
+            android:background="#66FFFFFF"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp" />
+
+        <!-- Book Table -->
+        <Button
+            android:id="@+id/btnBookTable"
+            android:text="Book a Table"
+            android:textColor="#FFFFFFFF"
+            android:background="#66FFFFFF"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp" />
+
+        <!-- Feedback -->
+        <Button
+            android:id="@+id/btnFeedback"
+            android:text="Leave Feedback"
+            android:textColor="#FFFFFFFF"
+            android:background="#66FFFFFF"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp" />
+
+        <!-- Logout -->
+        <Button
+            android:id="@+id/btnLogout"
+            android:text="Logout"
+            android:textColor="#FFFFFFFF"
+            android:background="#66FFFFFF"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp" />
+    </LinearLayout>
+</ScrollView>
+
+
+
+

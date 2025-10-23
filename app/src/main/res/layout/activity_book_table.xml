@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/restaurant_bg"
+    android:padding="20dp">
+
+    <!-- Title -->
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Table Reservations"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="#B3FFFFFF"
+        android:gravity="center"
+        android:layout_marginBottom="10dp" />
+
+    <!-- Subtitle -->
+    <TextView
+        android:id="@+id/tvAvailableTimes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Available Times:"
+        android:textSize="18sp"
+        android:textColor="#B3FFFFFF"
+        android:layout_marginBottom="8dp"
+        android:gravity="center" />
+
+    <!-- ✅ List of available times -->
+    <ListView
+        android:id="@+id/listViewTimes"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:choiceMode="singleChoice"
+        android:listSelector="@android:color/holo_blue_light"
+        android:divider="@android:color/darker_gray"
+        android:dividerHeight="1dp" />
+
+    <!-- Confirm booking -->
+    <Button
+        android:id="@+id/btnConfirm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Confirm"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#2196F3"
+        android:textColor="#FFFFFF" />
+
+    <!-- Return to Home -->
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#64B5F6"
+        android:textColor="#FFFFFF" />
+
+</LinearLayout>
