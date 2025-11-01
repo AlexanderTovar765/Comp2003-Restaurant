@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     android:background="@drawable/restaurant_bg"
     tools:context=".FeedbackActivity">
-
+ <!-- This part is for the title -->
     <TextView
         android:id="@+id/feedbackTitle"
         android:layout_width="wrap_content"
@@ -20,7 +20,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         android:layout_marginTop="50dp"/>
-
+ <!-- This part is for the text bubble for the user -->
     <TextView
         android:id="@+id/feedbackPrompt"
         android:layout_width="0dp"
@@ -34,7 +34,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         android:layout_marginHorizontal="30dp"
         android:layout_marginTop="20dp"/>
-
+ <!-- This part is for the user to type a response -->
     <EditText
         android:id="@+id/inputFeedback"
         android:layout_width="0dp"
@@ -47,7 +47,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         android:layout_margin="30dp"/>
-
+ <!-- This part is for the feedback submission button -->
     <Button
         android:id="@+id/btnSubmitFeedback"
         android:layout_width="0dp"
