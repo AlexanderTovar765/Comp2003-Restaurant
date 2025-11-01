@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
    android:background="@drawable/restaurant_bg"
     tools:context=".ThankYouActivity">
-
+<!-- This part is for the title of the thank you page -->
     <TextView
         android:id="@+id/thankYouText"
         android:layout_width="wrap_content"
@@ -20,7 +20,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         android:layout_marginTop="120dp"/>
-
+<!-- This part is for the back button to take the user back to the main page -->
     <Button
         android:id="@+id/btnBack"
         android:layout_width="0dp"
