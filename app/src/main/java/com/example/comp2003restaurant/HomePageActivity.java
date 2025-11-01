@@ -15,7 +15,7 @@ public class HomePageActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home_page);
 
-        // Initialize buttons
+        // This part is for initializing the buttons for the page
         btnViewMenu = findViewById(R.id.btnViewMenu);
         btnBookTable = findViewById(R.id.btnBookTable);
         btnFeedback = findViewById(R.id.btnFeedback);
