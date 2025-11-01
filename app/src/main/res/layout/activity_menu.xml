@@ -4,12 +4,12 @@
     android:layout_height="match_parent"
     android:background="@drawable/restaurant_bg"
     android:padding="16dp">
-
+<!-- This part is for the layout of the upcoming restaurant menu box -->
     <LinearLayout
         android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
-
+<!-- This part is for the title -->
         <TextView
             android:text="Restaurant Menu"
             android:textSize="26sp"
@@ -20,7 +20,7 @@
             android:layout_height="wrap_content"
             android:padding="10dp" />
 
-        <!-- Starters -->
+        <!-- This part is for the text for the starters -->
         <TextView
             android:text="Starters"
             android:textSize="20sp"
@@ -29,7 +29,7 @@
             android:layout_marginTop="10dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
-
+<!-- This part is a placeholder for starting foods -->
         <TextView android:text="• Garlic Bread - $4.50"
             android:layout_width="wrap_content"
             android:textColor="#B3FFFFFF"
@@ -39,7 +39,7 @@
             android:textColor="#B3FFFFFF"
             android:layout_height="wrap_content" />
 
-        <!-- Mains -->
+        <!-- This part is for the text for the main foods -->
         <TextView
             android:text="Mains"
             android:textSize="20sp"
@@ -48,7 +48,7 @@
             android:layout_marginTop="14dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
-
+<!-- This part is a placeholder for the main courses -->
         <TextView android:text="• Grilled Salmon with Lemon Butter - $18.00"
             android:layout_width="wrap_content"
             android:textColor="#B3FFFFFF"
@@ -62,7 +62,7 @@
             android:textColor="#B3FFFFFF"
             android:layout_height="wrap_content" />
 
-        <!-- Desserts -->
+        <!-- This part is for the text for the desserts -->
         <TextView
             android:text="Desserts"
             android:textSize="20sp"
@@ -71,7 +71,7 @@
             android:layout_marginTop="14dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
-
+<!-- This part is a placeholder for the dessert foods -->
         <TextView android:text="• Cheesecake - $6.50"
             android:layout_width="wrap_content"
             android:textColor="#B3FFFFFF"
@@ -81,7 +81,7 @@
             android:textColor="#B3FFFFFF"
             android:layout_height="wrap_content" />
 
-        <!-- Return Button -->
+        <!-- This part is for the back button -->
         <Button
             android:id="@+id/btnBack"
             android:text="Back"
