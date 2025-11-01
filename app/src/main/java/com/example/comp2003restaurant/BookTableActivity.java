@@ -27,7 +27,7 @@ public class BookTableActivity extends AppCompatActivity {
         btnConfirm = findViewById(R.id.btnConfirm);
         btnReturnHome = findViewById(R.id.btnBack);
 
-        // Adapter for available times
+        // This part is for the adapter for available times
         ArrayAdapter<String> adapter = new ArrayAdapter<>(this, android.R.layout.simple_list_item_single_choice, availableTimes);
         listViewTimes.setAdapter(adapter);
         listViewTimes.setChoiceMode(ListView.CHOICE_MODE_SINGLE);
@@ -42,7 +42,7 @@ public class BookTableActivity extends AppCompatActivity {
 
             Toast.makeText(BookTableActivity.this, "Your reservation at " + selectedTime + " has been made.", Toast.LENGTH_SHORT).show();
 
-            // ✅ Redirect to HomePageActivity instead of MainActivity
+            // This part is for, upon success, The page will redirect to the HomePageActivity instead of the MainActivity
             Intent intent = new Intent(BookTableActivity.this, HomePageActivity.class);
             startActivity(intent);
             finish();
