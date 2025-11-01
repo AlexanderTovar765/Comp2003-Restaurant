@@ -31,7 +31,7 @@ public class DBHelper extends SQLiteOpenHelper {
         onCreate(db);
     }
 
-    // ✅ Add new user
+    // This part is for, upon success, it will add a new user
     public boolean addUser(String email, String username, String password) {
         SQLiteDatabase db = this.getWritableDatabase();
         ContentValues values = new ContentValues();
@@ -40,10 +40,10 @@ public class DBHelper extends SQLiteOpenHelper {
         values.put("password", password);
         long result = db.insert(TABLE_USERS, null, values);
         db.close();
-        return result != -1; // return true if success
+        return result != -1; // Once finished, it will return true if it succeds
     }
 
-    // ✅ Check if a user exists (for login)
+    // this part is for, upon success, to check if a user exists (for logging in)
     public boolean checkUser(String usernameOrEmail, String password) {
         SQLiteDatabase db = this.getReadableDatabase();
         String query = "SELECT * FROM " + TABLE_USERS + " WHERE (username=? OR email=?) AND password=?";
