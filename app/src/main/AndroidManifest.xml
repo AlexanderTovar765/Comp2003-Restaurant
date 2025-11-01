@@ -20,7 +20,7 @@
         <activity android:name=".LoginActivity" />
         <activity android:name=".HomePageActivity" />
 
-        <!-- Only THIS one should have the MAIN/LAUNCHER filter -->
+        <!-- Only this part of the xml should have the MAIN/LAUNCHER filter in it -->
         <activity
             android:name=".MainActivity"
             android:exported="true">
