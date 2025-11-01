@@ -10,7 +10,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
-        <!-- Title -->
+         <!-- This part is for the title -->
         <TextView
             android:text="Welcome to Our Restaurant"
             android:textSize="26sp"
@@ -21,7 +21,7 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="30dp" />
 
-        <!-- View Menu -->
+         <!-- This part is for the menu viewing button -->
         <Button
             android:id="@+id/btnViewMenu"
             android:text="View Menu"
@@ -31,7 +31,7 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="20dp" />
 
-        <!-- Book Table -->
+         <!-- This part is for the table booking button -->
         <Button
             android:id="@+id/btnBookTable"
             android:text="Book a Table"
@@ -41,7 +41,7 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="20dp" />
 
-        <!-- Feedback -->
+         <!-- This part is for the feedback button -->
         <Button
             android:id="@+id/btnFeedback"
             android:text="Leave Feedback"
@@ -51,7 +51,7 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="20dp" />
 
-        <!-- Logout -->
+         <!-- This part is for the logging out button -->
         <Button
             android:id="@+id/btnLogout"
             android:text="Logout"
