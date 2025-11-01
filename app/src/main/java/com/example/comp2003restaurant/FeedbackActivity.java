@@ -7,12 +7,13 @@ import android.widget.EditText;
 import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
 
+// This is for allowing the user to put in feedback and submit it.
 public class FeedbackActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_feedback);
-
+// This part will find Button and EditText elements in the layout by checking the ID's
         EditText inputFeedback = findViewById(R.id.inputFeedback);
         Button btnSubmitFeedback = findViewById(R.id.btnSubmitFeedback);
 
