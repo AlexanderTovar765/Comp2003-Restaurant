@@ -19,7 +19,7 @@ public class ThankYouActivity extends AppCompatActivity {
 
         if (btnReturnHome != null) {
             btnReturnHome.setOnClickListener(v -> {
-                // ✅ Return user to HomePageActivity
+                // This part is for returning the user to the home page
                 Intent intent = new Intent(ThankYouActivity.this, HomePageActivity.class);
                 startActivity(intent);
                 finish();
