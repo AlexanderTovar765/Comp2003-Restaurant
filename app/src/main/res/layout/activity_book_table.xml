@@ -6,7 +6,7 @@
     android:background="@drawable/restaurant_bg"
     android:padding="20dp">
 
-    <!-- Title -->
+    <!-- This part is for the title -->
     <TextView
         android:id="@+id/tvTitle"
         android:layout_width="match_parent"
@@ -18,7 +18,7 @@
         android:gravity="center"
         android:layout_marginBottom="10dp" />
 
-    <!-- Subtitle -->
+    <!-- This part is for the subtitle -->
     <TextView
         android:id="@+id/tvAvailableTimes"
         android:layout_width="match_parent"
@@ -29,7 +29,7 @@
         android:layout_marginBottom="8dp"
         android:gravity="center" />
 
-    <!-- ✅ List of available times -->
+    <!-- This part is for the list of available times -->
     <ListView
         android:id="@+id/listViewTimes"
         android:layout_width="match_parent"
@@ -40,7 +40,7 @@
         android:divider="@android:color/darker_gray"
         android:dividerHeight="1dp" />
 
-    <!-- Confirm booking -->
+    <!-- This part is for the confirm booking button -->
     <Button
         android:id="@+id/btnConfirm"
         android:layout_width="match_parent"
@@ -50,7 +50,7 @@
         android:backgroundTint="#2196F3"
         android:textColor="#FFFFFF" />
 
-    <!-- Return to Home -->
+    <!-- This part is for the return to home button -->
     <Button
         android:id="@+id/btnBack"
         android:layout_width="match_parent"
