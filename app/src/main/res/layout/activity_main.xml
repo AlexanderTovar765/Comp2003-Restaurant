@@ -3,14 +3,14 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/restaurant_bg">
-
+<!-- This part is for the layout of the upcoming text -->
     <LinearLayout
         android:orientation="vertical"
         android:padding="24dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
-        <!-- Restaurant Name -->
+        <!-- This part is for the title -->
         <TextView
             android:text="(Restaurant Name)"
             android:textSize="28sp"
@@ -21,7 +21,7 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="30dp" />
 
-        <!-- Login + Sign Up Buttons (side by side) -->
+        <!-- This part is for the layout of the upcoming buttons -->
         <LinearLayout
             android:orientation="horizontal"
             android:gravity="center"
@@ -29,7 +29,7 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="30dp"
             android:weightSum="2">
-
+<!-- This part is for the logging in button -->
             <Button
                 android:id="@+id/btnLogin"
                 android:text="Login"
@@ -39,7 +39,7 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginEnd="10dp" />
-
+<!-- This part is for the signing up button -->
             <Button
                 android:id="@+id/btnSignUp"
                 android:text="Sign Up"
@@ -51,7 +51,7 @@
                 android:layout_marginStart="10dp" />
         </LinearLayout>
 
-        <!-- Two Info Boxes -->
+        <!-- This part is for the layout of the upcoming box -->
         <LinearLayout
             android:orientation="horizontal"
             android:layout_width="match_parent"
@@ -59,7 +59,7 @@
             android:layout_marginTop="10dp"
             android:weightSum="2">
 
-            <!-- Opening Hours and Location Box -->
+            <!-- This part is for the layout of the opening hours box -->
             <LinearLayout
                 android:orientation="vertical"
                 android:background="#AAFFFFFF"
@@ -68,21 +68,21 @@
                 android:layout_marginEnd="8dp"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content">
-
+<!-- This part is for the text of the opening hours -->
                 <TextView
                     android:text="Opening Hours and Locations"
                     android:textStyle="bold"
                     android:textColor="#B3000000"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content" />
-
+<!-- This part is for the text for the address -->
                 <TextView
                     android:text="123 Ocean View Blvd"
                     android:textColor="#B3000000"
                     android:layout_marginTop="10dp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content" />
-
+<!-- This part is for the text for the days and times -->
                 <TextView
                     android:text="Mon–Fri: 11AM–9PM\nSat–Sun: 12PM–10PM"
                     android:textColor="#B3000000"
@@ -91,7 +91,7 @@
                     android:layout_height="wrap_content" />
             </LinearLayout>
 
-            <!-- Feedback and Social Media Box -->
+            <!-- This part is for the layout of the socials and feedback boxes -->
             <LinearLayout
                 android:orientation="vertical"
                 android:background="#AAFFFFFF"
@@ -100,14 +100,14 @@
                 android:layout_marginStart="8dp"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content">
-
+<!-- This part is for the text setting up the feedback button -->
                 <TextView
                     android:text="Enjoyed your Meal? Send us feedback!"
                     android:textStyle="bold"
                     android:textColor="#B3000000"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content" />
-
+<!-- This part is for the feedback button -->
                 <Button
                     android:id="@+id/btnFeedback"
                     android:text="Leave Feedback"
@@ -116,7 +116,7 @@
                     android:layout_marginTop="10dp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content" />
-
+<!-- This part is for the text to present the socials -->
                 <TextView
                     android:text="Follow us on:"
                     android:textStyle="bold"
@@ -124,7 +124,7 @@
                     android:layout_marginTop="15dp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content" />
-
+<!-- This part is a placeholder for any social media the restaurant wants to promote -->
                 <TextView
                     android:text="• Instagram\n• Facebook\n• Twitter"
                     android:textColor="#B3000000"
