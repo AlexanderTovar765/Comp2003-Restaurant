@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     android:background="@drawable/restaurant_bg"
     tools:context=".SignupActivity">
-
+<!-- This part is for the title -->
     <TextView
         android:id="@+id/signupTitle"
         android:text="Sign Up"
@@ -20,7 +20,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         android:layout_marginTop="80dp" />
-
+<!-- This part is for the user to put in their email -->
     <EditText
         android:id="@+id/emailInput"
         android:layout_width="250dp"
@@ -30,7 +30,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         android:layout_marginTop="40dp" />
-
+<!-- This part is for the user to put in their username-->
     <EditText
         android:id="@+id/usernameInput"
         android:layout_width="250dp"
@@ -40,7 +40,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         android:layout_marginTop="16dp" />
-
+<!-- This part is for the user to put in their password -->
     <EditText
         android:id="@+id/passwordInput"
         android:layout_width="250dp"
@@ -51,7 +51,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         android:layout_marginTop="16dp" />
-
+<!-- This part is for the button to create an account -->
     <Button
         android:id="@+id/createAccountButton"
         android:text="Create Account"
