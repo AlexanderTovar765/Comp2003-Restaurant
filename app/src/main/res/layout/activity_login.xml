@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     android:background="@drawable/restaurant_bg"
     tools:context=".LoginActivity">
-
+ <!-- This part is for the title -->
     <TextView
         android:id="@+id/loginTitle"
         android:layout_width="wrap_content"
@@ -20,7 +20,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         android:layout_marginTop="80dp" />
-
+<!-- This part is for the user to type a username -->
     <EditText
         android:id="@+id/usernameInput"
         android:layout_width="250dp"
@@ -30,7 +30,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         android:layout_marginTop="40dp" />
-
+<!-- This part is for the user to type a password -->
     <EditText
         android:id="@+id/passwordInput"
         android:layout_width="250dp"
@@ -41,7 +41,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         android:layout_marginTop="16dp" />
-
+<!-- This part is for the logging in button -->
     <Button
         android:id="@+id/loginButton"
         android:layout_width="150dp"
@@ -51,7 +51,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         android:layout_marginTop="24dp" />
-
+<!-- This part is for the layout behind the login button so it pops more -->
     <LinearLayout
         android:orientation="horizontal"
         android:layout_width="wrap_content"
@@ -60,13 +60,13 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         android:layout_marginTop="24dp">
-
+<!-- This part is a placeholder for the staff login button -->
         <Button
             android:id="@+id/staffButton"
             android:text="Staff"
             android:layout_width="100dp"
             android:layout_height="wrap_content" />
-
+<!-- This part is a placeholder for the guest login button -->
         <Button
             android:id="@+id/guestButton"
             android:text="Guest"
